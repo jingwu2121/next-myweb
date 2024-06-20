@@ -9,7 +9,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import world from '../../images/world-0.png'
 import note from '../../images/note-0.png'
-import MathJax from '../mathjax'
 
 import Card from '@/app/components/Card';
 import button_styles from "../../styles/button.module.css"
