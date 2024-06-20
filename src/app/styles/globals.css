@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+body {
+  font-family: 'VT323', monospace;
+  background: teal;
+  background-image: url(../images/clouds2.jpg);
+  color:#212529;
+  padding-bottom: 28px;
+}
+
+li {
+  list-style-type: disc;
+}
+
+
+
+/* a {
+  color: aqua;
+}
+
+a:hover {
+  text-decoration: underline;
+} */

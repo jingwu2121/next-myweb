@@ -16,5 +16,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  port: 3001
 };
 export default config;

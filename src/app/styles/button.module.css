@@ -1,0 +1,40 @@
+.btn{
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-right-color: #424242;
+    border-bottom-color: #424242;
+    background: silver;
+    color: black;
+    padding: 0 0 4px;
+    border-radius: 1px;
+    width: auto;
+}
+
+.btn:hover {
+    border: 2px inset #fff;
+    background: silver;
+    color: #424242;
+    box-shadow: -1px -1px #000;
+}
+
+.page_viewer {
+    text-align: center;
+}
+
+/* .btn:focus {
+    border: 2px inset #fff !important;
+    background: silver;
+    color: #424242;
+    box-shadow: -1px -1px #000 !important;
+    outline: 0 !important;
+    background: url(background.bmp);
+}
+
+.btn:active {
+    border: 2px inset #fff !important;
+    color: #424242;
+    box-shadow: -1px -1px #000 !important;
+    outline: 0 !important;
+    background: url(background.bmp);
+} */

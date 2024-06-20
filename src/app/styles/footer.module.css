@@ -1,0 +1,13 @@
+.taskbar{
+    cursor: default;
+    background-color: silver;
+    margin: 16px 0 0 0;
+    padding: 0 0px;
+    border-top: 2px outset #fff;
+    z-index: 228;
+    width: 100%;
+    margin-right: 0px;
+    position: absolute;
+    bottom: 2px;
+    position: fixed;
+}

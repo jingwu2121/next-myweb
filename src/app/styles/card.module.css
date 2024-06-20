@@ -1,0 +1,24 @@
+.card{
+    border: solid;
+    border-width: 2px;
+    border-bottom-color: #424242;
+    border-right-color: #424242;
+    border-left-color: #fff;
+    border-top-color: #fff;
+    background: silver;
+    color:#212529;
+}
+
+.card_header{
+    background: -webkit-linear-gradient(left,#08216b,#a5cef7);
+    color: #fff;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    text-align: left;
+}
+
+
