@@ -10,6 +10,7 @@ import about from '../images/user_calendar-0.png'
 import user_computer from '../images/user_computer-0.png'
 import users from '../images/users-1.png'
 import directory_folder_options from '../images/directory_folder_options-5.png'
+
 import button_styles from "../styles/button.module.css"
 
 import derainnerf from '../project_imgs/derainnerf.jpg'
@@ -19,7 +20,7 @@ import gaussctrl from '../project_imgs/gaussctrl.gif'
 const HomeCards = () => {
   return (
     <>
-      <div className="grid grid-cols-1 mt-20 mx-5 md:grid-cols-2 md:mx-10">
+      <div className="grid grid-cols-1 mt-20 mx-5 md:grid-cols-2 md:mx-20">
           <div className='items-center mx-auto overflow-auto'>
               <Image src={profile_img} width={500} height={500} alt='profile image'></Image>
           </div>
@@ -68,7 +69,7 @@ const HomeCards = () => {
       </div>
 
       {/* Publication */} 
-      <div className="mx-5 md:mx-10">
+      <div className="mx-5 md:mx-20">
         <Card title='Research' logo={note}>
           <div className="divide-y divide-slate-700 grid gap-y-2">
             <Publication teaser={gaussctrl} paper_title='GaussCtrl: Multi-View Consistent Text-Driven 3D Gaussian Splatting Editing' web='https://gaussctrl.active.vision/'>

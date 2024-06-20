@@ -8,7 +8,7 @@ import styles from '../styles/button.module.css'
 const misc = () => {
   return (
     <>
-      <div className="mx-5 md:mx-10">
+      <div className="mx-5 md:mx-20">
         <Card title='Misc' logo={tree}>
           <div className="p-4 grid gap-2">
             <li><a className='text-blue-600 hover:text-purple-600' href="https://www.oubac.com/" target="_blank">O.U.Ba.C.</a> Member! :3</li>

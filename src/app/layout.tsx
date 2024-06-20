@@ -2,8 +2,12 @@ import type { Metadata } from "next";
 import "./styles/globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { Ubuntu } from 'next/font/google'
 
-// const inter = Inter({ subsets: ["latin"] });
+const font = Ubuntu({ 
+  weight: '400',
+  subsets: ["latin"] 
+});
 
 export const metadata: Metadata = {
   title: "Jing Wu",
@@ -17,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >
+      <body className={font.className}>
         <Navbar />
         {children}
         <Footer />
