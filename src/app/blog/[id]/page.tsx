@@ -22,7 +22,7 @@ export async function generateStaticParams() {
     }));
 }
   
-export default async function Post({ params }) {
+export default async function Post({ params }:any) {
     const postData = await getPostData(params.id);
     // console.log(marked(postData.content))
 
