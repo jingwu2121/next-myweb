@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   title: "Jing Wu",
-  description: "3D Vision, PhD Student, Oxford",
+  description: "3D Computer Vision, PhD Student, Oxford",
 };
 
 export default function RootLayout({

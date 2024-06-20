@@ -51,6 +51,9 @@ const Navbar = () => {
                         <Link className='mx-2 hover:underline' href="/contact" >
                             Contact
                         </Link>
+                        <Link className='mx-2 hover:underline' href="/blog" >
+                            Blog
+                        </Link>
                     </div>
                 </div>
                 
