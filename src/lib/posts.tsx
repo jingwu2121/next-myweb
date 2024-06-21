@@ -38,12 +38,11 @@ export async function getPostData(id:any) {
     .use(html)
     .process(matterResult.content);
     const contentHtml = processedContent.toString();
-    const {title, date} = matterResult.data
     
     return {
       id,
       contentHtml,
-      title,
-      date,
+      ...matterResult.data.title,
+      ...matterResult.data.date,
     };
 }
