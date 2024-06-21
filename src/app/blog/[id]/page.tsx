@@ -24,14 +24,8 @@ export async function generateStaticParams() {
   
 export default async function Post({ params }:any) {
     const postData = await getPostData(params.id);
-    // console.log(marked(postData.content))
-
-    const options = {
-      throwOnError: false
-    };
-    marked.use(markedKatex(options));
-
-
+    // console.log(marked(postData.content))   
+    
     return (
         <div className="mx-5 md:mx-20">
           <Card title={postData.title} logo={note}>
